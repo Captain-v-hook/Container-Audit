@@ -4,8 +4,10 @@ if you have Concernes about running privileged Containers in your server this Sc
 
 ### Usage 
 - Get the script
-- Chmod +x privilegedContainer.sh
+- chmod +x privilegedContainer.sh
 - ./privilegedContainer.sh
 
 ### Result
-![image](https://user-images.githubusercontent.com/99005260/171103213-128b7814-12db-4cfb-ad7a-24358823dace.png)
+The script simply runs the ```docker ps``` and fetch all of the ```Container IDs``` then find your privileged Container.
+
+![image](https://user-images.githubusercontent.com/99005260/171103773-01bc6280-4e6d-439f-adb8-a992d1cf35e0.png)
