@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Container_Audit_1689160363922-pr-trigger-input-set
+  identifier: Build_Container_Audit_1689160363922prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Container_Audit_1689160363922
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
