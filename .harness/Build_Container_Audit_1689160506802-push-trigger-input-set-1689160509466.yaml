@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Container_Audit_1689160506802-push-trigger-input-set
+  identifier: Build_Container_Audit_1689160506802pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: testi
+  pipeline:
+    identifier: Build_Container_Audit_1689160506802
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
